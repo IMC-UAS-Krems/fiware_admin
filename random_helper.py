@@ -25,11 +25,11 @@ def generate_simple_time_series(min, max, size, interval=1, type_name="DefaultTy
     @size: number of samples to generate.
     @interval: the measurement interval (in seconds). Default: 1 s.
     """
-    cols = {'id': [],  'type': [], 'dateObserved': [], 'value': []}
+    cols = {'id': [],  'type': [], 'dateObserved': [], 'measurement': []}
     df = pd.DataFrame(data = cols)
 
     sample = rn.uniform(min, max, size)
-    df['value'] = sample
+    df['measurement'] = sample
     ids = np.ones((size, ), dtype=int)
     
     vfunc = np.vectorize(generate_random_id)
@@ -52,7 +52,7 @@ def row_to_json(row):
                     "value": row[2].isoformat().replace('+00:00', 'Z'),
                     "metadata": {}
                 },
-                "value": {
+                "measurement": {
                     "type": "Number",
                     "value": row[3],
                     "metadata": {}
