@@ -57,6 +57,13 @@ if __name__ == "__main__":
     parser.add_argument('-u', '--upload', metavar='<json_data_file>',
                         help='Path to JSON file with data to upload. The data should be given as a JSON array of entities with IDs and attributes.')
     
+    # Add auto-batching support
+    parser.add_argument('--auto-batch', action='store_true',
+                        help='Automatically batch large uploads to stay under 1MB')
+    
+    parser.add_argument('--count', action='store_true',
+                        help='Count entities in Orion')
+    
     # Specify the Fiware-Service path
     parser.add_argument('-s', '--service', metavar='<service_path>',
                         help='Name of the Fiware-service path.')
@@ -117,8 +124,20 @@ if __name__ == "__main__":
                     exit(1)
                 with open(args.upload) as data_file:
                     data_json = json.load(data_file)
-                    result = client.upload_entities(data_json)
-                    print(result)
+                    if args.auto_batch:
+                        results = client.batch_and_upload_entities(data_json)
+                        for i, result in enumerate(results):
+                            print(f"Batch {i+1} result: {result.status_code}")
+                    else:
+                        result = client.upload_entities(data_json)
+                        print(result)
+                        
+            if args.count:
+                # Count entities
+                result = client.get_all_entities(args.type)
+                print(f"Total entities in Orion: {len(result)}")
+                            
+            
             if args.generate:
                 # Generate random data
                 type = get_type(args)
