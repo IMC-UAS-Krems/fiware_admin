@@ -1,0 +1,42 @@
+service:
+    title is Waste Collection Dashboard
+    version is 1.0.0
+    scope is Environment
+
+data:
+    sources -> wastecollection
+
+wastecollection:
+    type is SmartMeter
+    provider is Fiware
+    uri is http://localhost:1026/v2/entities
+    query is WasteCollectionPoint
+
+application:
+    type is Web
+    dashboard is Dash
+    layout is SinglePage
+    roles -> User, SuperUser, Admin
+    panels -> Map, Pie
+
+Map:
+    label is Waste Collection Map
+    type is geomap
+    source is wastecollection
+    data -> location, STRASSE, TEXT
+    area is Vienna
+
+Pie:
+    label is Waste Type Distribution
+    type is pie_chart
+    source is wastecollection
+    traces -> PA, BI, DO, G, KV
+    pie_chart_type is pie
+
+deployment:
+    environments -> local
+
+local:
+    uri is https://localhost.org:3000/test
+    port is 50055
+    type is Docker
