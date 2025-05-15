@@ -1,15 +1,10 @@
 import pandas as pd
-import requests
 import json
 import os
-import re
-import sys
-import unicodedata
-import datetime
 
 CURR_DIR = os.path.dirname(os.path.abspath(__file__))
 
-print("\nTransforming waste collection data from Wien to FIWARE format:")
+print("\nTransforming waste collection data to FIWARE format:")
 print("-> Opening raw data file...")
 with open(os.path.join(CURR_DIR, 'waste_collection_wien_raw_data.json'), 'r', encoding="utf-8") as f:
     data = json.load(f)
