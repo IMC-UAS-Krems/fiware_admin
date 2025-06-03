@@ -1,0 +1,43 @@
+service:
+    title is Kindengarten Wien Dashboard
+    version is 1.0.0
+    scope is Environment
+
+data:
+    sources -> kindergarten
+
+kindergarten:
+    type is SmartMeter
+    provider is Fiware
+    uri is http://localhost:1026/v2/entities
+    query is Kindergarten
+
+application:
+    type is Web
+    dashboard is Dash
+    layout is SinglePage
+    roles -> User, SuperUser, Admin
+    panels -> Map, Bar
+
+Map:
+    label is Kindergarten Map
+    type is geomap
+    source is kindergarten
+    data -> location, name, kindergarten_type, availability, capacity
+    area is Vienna
+    color_by is kindergarten_type
+
+Bar:
+    label is Kindergarten Type Counts
+    type is bar_chart
+    source is kindergarten
+    traces -> kindergarten_type
+    reduce is unique_trace_counts
+
+deployment:
+    environments -> local
+
+local:
+    uri is https://localhost.org:3000/test
+    port is 50055
+    type is Docker
