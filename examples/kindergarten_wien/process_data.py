@@ -21,7 +21,7 @@ typ_txt_series = df['properties'].apply(lambda x: x.get('TYP_TXT'))
 typ_txt_counts = typ_txt_series.value_counts()
 
 # Identify types that occur more than 15 times
-valid_types = typ_txt_counts[typ_txt_counts > 15].index.tolist()
+valid_types = typ_txt_counts[typ_txt_counts > 20].index.tolist()
 
 # Filter the DataFrame
 df_filtered = df[df['properties'].apply(lambda x: x.get(

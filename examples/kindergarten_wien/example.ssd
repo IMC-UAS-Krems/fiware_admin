@@ -26,6 +26,7 @@ Map:
     data -> location, name, kindergarten_type, availability, capacity
     area is Vienna
     color_by is kindergarten_type
+    size_by is capacity
 
 Bar:
     label is Kindergarten Type Counts
