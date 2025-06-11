@@ -1,0 +1,60 @@
+service:
+    title is Agricultural Field Data Dashboard
+    version is 1.0.0
+    scope is Environment
+
+data:
+    sources -> agriculture
+
+agriculture:
+    type is SmartMeter
+    provider is Fiware
+    uri is http://localhost:1026/v2/entities
+    query is LandParcel
+
+application:
+    type is Web
+    dashboard is Dash
+    layout is SinglePage
+    roles -> User, SuperUser, Admin
+    panels -> Map, FundingPie, LandUsePie, XY, Bar
+    
+Map:
+    label is Agriculture Land Use Map
+    type is geomap
+    source is agriculture
+    data -> location, field_parcel_id, funding, length, area 
+    area is Vienna
+
+FundingPie:
+    label is Funding Distribution
+    type is pie_chart
+    source is agriculture
+    traces -> organisation_a, organisation_b, organisation_c, organisation_d, organisation_e
+    pie_chart_type is pie
+
+LandUsePie:
+    label is Land Use Distribution
+    type is pie_chart
+    source is agriculture
+    traces -> farmland, wineyard, grassland
+    pie_chart_type is pie
+
+Bar:
+    label is Pollutant Bar Chart
+    type is bar_chart
+    source is agriculture
+    traces -> dateObserved, length, area
+XY:
+    label is Length vs Area Scatter Plot
+    type is xy_chart
+    source is agriculture
+    traces -> length, area
+
+deployment:
+    environments -> local
+
+local:
+    uri is https://localhost.org:3000/test
+    port is 50055
+    type is Docker
