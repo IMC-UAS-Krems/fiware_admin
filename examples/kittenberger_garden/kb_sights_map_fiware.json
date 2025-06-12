@@ -1,0 +1,1308 @@
+[
+    {
+        "id": "kb-sights-map-1",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5112184,
+                    15.6316955
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Eingang zum Schaugarten/Eintrittskasse, INFO"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 1
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-2",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5109863,
+                    15.6314529
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Toskanagarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 2
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-3",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5110783,
+                    15.6310210
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Naturnaher Felsengarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 3
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-4",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5109252,
+                    15.6312188
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Gesundheitswassergarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 4
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-5",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5108944,
+                    15.6307551
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Gartenarena"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 5
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-6",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5110763,
+                    15.6304118
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Garten-Zeit"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 6
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-7",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5109648,
+                    15.6303883
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Miniaturgarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 7
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-8",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5111074,
+                    15.6301144
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Kitti-Beeren-Garten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 8
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-9",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5109608,
+                    15.6299685
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Naturgarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 9
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "subSights": {
+            "type": "Text",
+            "value": "[{\"id\":\"a\", \"name\":\"Garten unterm Baum\", \"coordinates\": [48.5111620, 15.6298177]}, {\"id\":\"b\", \"name\":\"Steppengarten\", \"coordinates\": [48.5109201, 15.6296678]}, {\"id\":\"c\", \"name\":\"Biotop Teich erleben\", \"coordinates\": [48.5108973, 15.6298951]}]"
+        }
+    },
+    {
+        "id": "kb-sights-map-10",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5108340,
+                    15.6302535
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Weiden „Hotel“ mit Garten des Regenbogens"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 10
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-11",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5106669,
+                    15.6302632
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Ein guter Boden Langenlois"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 11
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-12",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5107400,
+                    15.6305704
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Haus der Sonne mit Himmelszelt und Garten.Bistro"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 12
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-13",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5104721,
+                    15.6304041
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Garten für Junggebliebene mit VIVE Natura-Pool"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 13
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-14",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5105885,
+                    15.6301003
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Brunnengarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 14
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-15",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5105661,
+                    15.6300715
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Italienischer Schachbrettgarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 15
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-16",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5103186,
+                    15.6300078
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Omas Gemüsegarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 16
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "subSights": {
+            "type": "Text",
+            "value": "[{\"id\":\"A\", \"name\":\"Urban Gardening\", \"coordinates\": [48.5103997, 15.6299709]}]"
+        }
+    },
+    {
+        "id": "kb-sights-map-17",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5102582,
+                    15.6301647
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Nano-Wohlfühlgarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 17
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5103746,
+                    15.6293798
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Abenteuergarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "subSights": {
+            "type": "Text",
+            "value": "[{\"id\":\"A\", \"name\":\"Mensch-Ärgere-Dich-Nicht\", \"coordinates\": [48.5103511, 15.6297278]}, {\"id\":\"B\", \"name\":\"Strohpyramide\", \"coordinates\": [48.5104051, 15.6295726]}, {\"id\":\"C\", \"name\":\"Blumen-Tret-Gokart Bahn\", \"coordinates\": [48.5107036, 15.6298763]}, {\"id\":\"D\", \"name\":\"Gartentipi\", \"coordinates\": [48.5102722, 15.6293040]}, {\"id\":\"E\", \"name\":\"Klettermikado & Kinderrutsche\", \"coordinates\": [48.5102609, 15.6295374]}, {\"id\":\"F\", \"name\":\"Wichtelgarten\", \"coordinates\": [48.5103815, 15.6290971]}, {\"id\":\"G\", \"name\":\"Klettertürme\", \"coordinates\": [48.5102531, 15.6288397]}, {\"id\":\"H\", \"name\":\"Adrenalin Rutschenturm (über 6 J.) & Getränke-Automat\", \"coordinates\": [48.5101609, 15.6286090]}, {\"id\":\"I\", \"name\":\"Geschicklichkeitsparcour\", \"coordinates\": [48.5103073, 15.6285781]}, {\"id\":\"J\", \"name\":\"Kletterwand\", \"coordinates\": [48.5104039, 15.6286636]}, {\"id\":\"K\", \"name\":\"Liegewiese\", \"coordinates\": [48.5105876, 15.6287562]}, {\"id\":\"L\", \"name\":\"Wasserspiele\", \"coordinates\": [48.5105285, 15.6290938]}, {\"id\":\"M\", \"name\":\"Floß fahren\", \"coordinates\": [48.5106169, 15.6290609]}, {\"id\":\"N\", \"name\":\"Baumhaus\", \"coordinates\": [48.5104315, 15.6291582]}, {\"id\":\"O\", \"name\":\"Sandspielplatz\", \"coordinates\": [48.5105521, 15.6282898]}, {\"id\":\"P\", \"name\":\"Holzkugelbahn\", \"coordinates\": [48.5097696, 15.6277882]}]"
+        }
+    },
+    {
+        "id": "kb-sights-map-19",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5099906,
+                    15.6294891
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Tierischer Bauerngarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 19
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "description": {
+            "type": "Text",
+            "value": "mit Alpakas, Lamas, Kaninchen, Ponys & Zwergziegen und Hundebistro"
+        },
+        "subSights": {
+            "type": "Text",
+            "value": "[{\"id\":\"a\", \"name\":\"Garten.Jause\", \"coordinates\": [48.5099239, 15.6295541]}]"
+        }
+    },
+    {
+        "id": "kb-sights-map-20",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5100623,
+                    15.6299984
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Weltgrößte Kräuterspirale"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 20
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "subSights": {
+            "type": "Text",
+            "value": "[{\"id\":\"a\", \"name\":\"Kräuterhütte\", \"coordinates\": [48.5101774, 15.6298418]}]"
+        }
+    },
+    {
+        "id": "kb-sights-map-21",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5101974,
+                    15.6304745
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Garten der Sehnsucht"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 21
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-22",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5098678,
+                    15.6304708
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Familiengarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 22
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-23",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5097376,
+                    15.6307316
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Gartenzwerge-Irrgarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 23
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-24",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5100534,
+                    15.6309931
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Garten im Raum"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 24
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-25",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5098629,
+                    15.6312151
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Tierischer Määh-Garten mit Ziegen und Kamerunschafen"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 25
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-26",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5097303,
+                    15.6316345
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Thermohaus mit saisonalen Pflanzen-Spezialitäten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 26
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-27",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5096885,
+                    15.6319115
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Zeitreise - Zukunft Naturgarten mit Keltischem Steinbogen"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 27
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": true
+        },
+        "isNew": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-28",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5098935,
+                    15.6318380
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Wind Art"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 28
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-29",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5100541,
+                    15.6319393
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Seelenbaumler Garten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 29
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-30",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5101467,
+                    15.6316436
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Garten der Freundschaft"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 30
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-31",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5099784,
+                    15.6316167
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Paradies Gart'l"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 31
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-32",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5100057,
+                    15.6313921
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Olivenhain - Geschichte lebt"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 32
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-33",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5100303,
+                    15.6312074
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Ruheraum im Garten - inspiriert von Prof. Erni Mangold"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 33
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-34",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5101749,
+                    15.6313599
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Weißer Austropop Garten - gewidmet Falco"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 34
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-35",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5101945,
+                    15.6309097
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Wetter-Garten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 35
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-36",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5102422,
+                    15.6311028
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Kreis des Lebens - Ort der Kraft"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 36
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-37",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5104264,
+                    15.6311296
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Portugiesischer Feuerkunst Garten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 37
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-38",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5103979,
+                    15.6307641
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Sommergarten mit Sommerfeeling-Naturpool"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 38
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": true
+        },
+        "isNew": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-39",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5106165,
+                    15.6309040
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Garten der Liebe - Hochzeitsgarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 39
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-40",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5105843,
+                    15.6312057
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Wellnessgarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 40
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-41",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5106671,
+                    15.6315789
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Rosengarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 41
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-42",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5105163,
+                    15.6314753
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Garten der Ästhetik"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 42
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-43",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5103286,
+                    15.6314152
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Vogelfluggarten in der Schmetterlingswiese"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 43
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-44",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5103155,
+                    15.6318585
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Wir - Garten des Erfolges"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 44
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-45",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5106334,
+                    15.6319728
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Rosenduft und Lebenslust"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 45
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-46",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5108659,
+                    15.6317291
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Winzergarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 46
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-47",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5108868,
+                    15.6314739
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Garten Form: vollendet"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 47
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-48",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5110085,
+                    15.6318139
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Asia Garten nach Feng Shui (eingeschränkter Zugang mit Rollstuhl)"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 48
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-49",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5111773,
+                    15.6313479
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Gastgarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 49
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        }
+    }
+]
