@@ -114,6 +114,16 @@ In the following examples we will use the short notation for convenience.
     python .\fiware_admin.py -c config_fiware.json -g -b 100 -m 15 -M 20 -md examples/sensor2-metadata.json -t AirQualityMeasurement -s air_quality
     ```
 
+## Known - Common Issues
+
+### Fiware - Error: "Invalid characters in attribute value"
+
+The log is not very helpful when you are trying to build a new dataset, the reason is probably because Fiware has forbidden characters and on top of that a set of hidden reserved characters that are not usable in attributes:
+
+```plaintext
+<>"'=;()?/#&
+```
+
 ## License
 
 This software is free under the MIT license was developed in the context of the "Smart Communities" research project, funded by the government of Lower Austria. 

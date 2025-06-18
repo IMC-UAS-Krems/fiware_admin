@@ -1,0 +1,34 @@
+service:
+    title is Kittenberger Garten - Sights Map
+    version is 1.0.0
+    scope is Environment
+
+data:
+    sources -> sightsMap
+
+sightsMap:
+    type is SmartMeter
+    provider is Fiware
+    uri is http://localhost:1026/v2/entities
+    query is KBSight
+    
+application:
+    type is Web
+    dashboard is Dash
+    layout is SinglePage
+    roles -> User, SuperUser, Admin
+    panels -> Map
+
+Map:
+    label is Kittenberger Sights Map
+    type is geomap
+    source is sightsMap
+    data -> location, name, mapId, isHighlight
+
+deployment:
+    environments -> local
+
+local:
+    uri is https://localhost.org:3000/test
+    port is 50055
+    type is Docker

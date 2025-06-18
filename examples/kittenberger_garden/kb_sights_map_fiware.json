@@ -14,7 +14,7 @@
         },
         "name": {
             "type": "Text",
-            "value": "Eingang zum Schaugarten/Eintrittskasse, INFO"
+            "value": "Eingang zum Schaugarten-Eintrittskasse INFO"
         },
         "mapId": {
             "type": "Number",
@@ -231,10 +231,96 @@
         "isHighlight": {
             "type": "Boolean",
             "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-9-a",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5111620,
+                    15.6298177
+                ]
+            }
         },
-        "subSights": {
+        "name": {
             "type": "Text",
-            "value": "[{\"id\":\"a\", \"name\":\"Garten unterm Baum\", \"coordinates\": [48.5111620, 15.6298177]}, {\"id\":\"b\", \"name\":\"Steppengarten\", \"coordinates\": [48.5109201, 15.6296678]}, {\"id\":\"c\", \"name\":\"Biotop Teich erleben\", \"coordinates\": [48.5108973, 15.6298951]}]"
+            "value": "Garten unterm Baum"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 9
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-9-b",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5109201,
+                    15.6296678
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Steppengarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 9
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-9-c",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5108973,
+                    15.6298951
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Biotop Teich erleben"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 9
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
         }
     },
     {
@@ -252,7 +338,7 @@
         },
         "name": {
             "type": "Text",
-            "value": "Weiden „Hotel“ mit Garten des Regenbogens"
+            "value": "Weiden Hotel mit Garten des Regenbogens"
         },
         "mapId": {
             "type": "Number",
@@ -417,10 +503,36 @@
         "isHighlight": {
             "type": "Boolean",
             "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-16-a",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5103997,
+                    15.6299709
+                ]
+            }
         },
-        "subSights": {
+        "name": {
             "type": "Text",
-            "value": "[{\"id\":\"A\", \"name\":\"Urban Gardening\", \"coordinates\": [48.5103997, 15.6299709]}]"
+            "value": "Urban Gardening"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 16
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
         }
     },
     {
@@ -473,10 +585,486 @@
         "isHighlight": {
             "type": "Boolean",
             "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-18-a",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5103511,
+                    15.6297278
+                ]
+            }
         },
-        "subSights": {
+        "name": {
             "type": "Text",
-            "value": "[{\"id\":\"A\", \"name\":\"Mensch-Ärgere-Dich-Nicht\", \"coordinates\": [48.5103511, 15.6297278]}, {\"id\":\"B\", \"name\":\"Strohpyramide\", \"coordinates\": [48.5104051, 15.6295726]}, {\"id\":\"C\", \"name\":\"Blumen-Tret-Gokart Bahn\", \"coordinates\": [48.5107036, 15.6298763]}, {\"id\":\"D\", \"name\":\"Gartentipi\", \"coordinates\": [48.5102722, 15.6293040]}, {\"id\":\"E\", \"name\":\"Klettermikado & Kinderrutsche\", \"coordinates\": [48.5102609, 15.6295374]}, {\"id\":\"F\", \"name\":\"Wichtelgarten\", \"coordinates\": [48.5103815, 15.6290971]}, {\"id\":\"G\", \"name\":\"Klettertürme\", \"coordinates\": [48.5102531, 15.6288397]}, {\"id\":\"H\", \"name\":\"Adrenalin Rutschenturm (über 6 J.) & Getränke-Automat\", \"coordinates\": [48.5101609, 15.6286090]}, {\"id\":\"I\", \"name\":\"Geschicklichkeitsparcour\", \"coordinates\": [48.5103073, 15.6285781]}, {\"id\":\"J\", \"name\":\"Kletterwand\", \"coordinates\": [48.5104039, 15.6286636]}, {\"id\":\"K\", \"name\":\"Liegewiese\", \"coordinates\": [48.5105876, 15.6287562]}, {\"id\":\"L\", \"name\":\"Wasserspiele\", \"coordinates\": [48.5105285, 15.6290938]}, {\"id\":\"M\", \"name\":\"Floß fahren\", \"coordinates\": [48.5106169, 15.6290609]}, {\"id\":\"N\", \"name\":\"Baumhaus\", \"coordinates\": [48.5104315, 15.6291582]}, {\"id\":\"O\", \"name\":\"Sandspielplatz\", \"coordinates\": [48.5105521, 15.6282898]}, {\"id\":\"P\", \"name\":\"Holzkugelbahn\", \"coordinates\": [48.5097696, 15.6277882]}]"
+            "value": "Mensch-Ärgere-Dich-Nicht"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-b",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5104051,
+                    15.6295726
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Strohpyramide"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-c",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5107036,
+                    15.6298763
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Blumen-Tret-Gokart Bahn"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-d",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5102722,
+                    15.6293040
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Gartentipi"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-e",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5102609,
+                    15.6295374
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Klettermikado und Kinderrutsche"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-f",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5103815,
+                    15.6290971
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Wichtelgarten"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-g",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5102531,
+                    15.6288397
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Klettertürme"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-h",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5101609,
+                    15.6286090
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Adrenalin Rutschenturm - über 6 Jahren - und Getränke-Automat"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-i",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5103073,
+                    15.6285781
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Geschicklichkeitsparcour"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-j",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5104039,
+                    15.6286636
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Kletterwand"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-k",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5105876,
+                    15.6287562
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Liegewiese"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-l",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5105285,
+                    15.6290938
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Wasserspiele"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-m",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5106169,
+                    15.6290609
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Floß fahren"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-n",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5104315,
+                    15.6291582
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Baumhaus"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-o",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5105521,
+                    15.6282898
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Sandspielplatz"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
+        }
+    },
+    {
+        "id": "kb-sights-map-18-p",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5097696,
+                    15.6277882
+                ]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Holzkugelbahn"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 18
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
+        },
+        "isSubsight": {
+            "type": "Boolean",
+            "value": true
         }
     },
     {
@@ -506,11 +1094,33 @@
         },
         "description": {
             "type": "Text",
-            "value": "mit Alpakas, Lamas, Kaninchen, Ponys & Zwergziegen und Hundebistro"
+            "value": "mit Alpakas, Lamas, Kaninchen, Ponys und Zwergziegen und Hundebistro"
+        }
+    },
+    {
+        "id": "kb-sights-map-19-a",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5099239,
+                    15.6295541
+                ]
+            }
         },
-        "subSights": {
+        "name": {
             "type": "Text",
-            "value": "[{\"id\":\"a\", \"name\":\"Garten.Jause\", \"coordinates\": [48.5099239, 15.6295541]}]"
+            "value": "Garten Jause"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 19
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
         }
     },
     {
@@ -537,10 +1147,32 @@
         "isHighlight": {
             "type": "Boolean",
             "value": false
+        }
+    },
+    {
+        "id": "kb-sights-map-20-a",
+        "type": "KBSight",
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [
+                    48.5101774,
+                    15.6298418
+                ]
+            }
         },
-        "subSights": {
+        "name": {
             "type": "Text",
-            "value": "[{\"id\":\"a\", \"name\":\"Kräuterhütte\", \"coordinates\": [48.5101774, 15.6298418]}]"
+            "value": "Kräuterhütte"
+        },
+        "mapId": {
+            "type": "Number",
+            "value": 20
+        },
+        "isHighlight": {
+            "type": "Boolean",
+            "value": false
         }
     },
     {
@@ -822,7 +1454,7 @@
         },
         "name": {
             "type": "Text",
-            "value": "Paradies Gart'l"
+            "value": "Paradies Gartl"
         },
         "mapId": {
             "type": "Number",
@@ -874,7 +1506,7 @@
         },
         "name": {
             "type": "Text",
-            "value": "Ruheraum im Garten - inspiriert von Prof. Erni Mangold"
+            "value": "Ruheraum im Garten - inspiriert von Prof Erni Mangold"
         },
         "mapId": {
             "type": "Number",
@@ -1268,7 +1900,7 @@
         },
         "name": {
             "type": "Text",
-            "value": "Asia Garten nach Feng Shui (eingeschränkter Zugang mit Rollstuhl)"
+            "value": "Asia Garten nach Feng Shui - eingeschränkter Zugang mit Rollstuhl"
         },
         "mapId": {
             "type": "Number",
