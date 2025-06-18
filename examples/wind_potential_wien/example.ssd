@@ -1,0 +1,36 @@
+service:
+    title is Wind Potential Dashboard
+    version is 1.0.0
+    scope is Environment
+
+data:
+    sources -> windpotential
+
+windpotential:
+    type is SmartMeter
+    provider is Fiware
+    uri is http://localhost:1026/v2/entities
+    query is WindPotential
+
+application:
+    type is Web
+    dashboard is Dash
+    layout is SinglePage
+    roles -> User, SuperUser, Admin
+    panels -> Map
+
+Map:
+    label is Wind Potential Map
+    type is geomap
+    source is windpotential
+    data -> location, windPotentialClassText, windPotentialClass
+    area is Vienna
+    geometry_type is multipolygon
+
+deployment:
+    environments -> local
+
+local:
+    uri is https://localhost.org:3000/test
+    port is 50055
+    type is Docker
