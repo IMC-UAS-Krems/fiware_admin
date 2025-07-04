@@ -1,0 +1,60 @@
+service:
+    title is Kittenberger Garden Dashboard
+    version is 1.0.0
+    scope is Environment
+
+data:
+    sources -> gardenSensors
+
+gardenSensors:
+    type is SmartMeter
+    provider is Fiware
+    uri is http://localhost:1026/v2/entities
+    query is SmartGardenSensor
+
+application:
+    type is Web
+    dashboard is Dash
+    layout is SinglePage
+    roles -> User, SuperUser, Admin
+    panels -> AirQualityTrends, PlantHealth, EnergyAndLightAnalysis, TemperatureCOXCorrelation, DailyPowerConsumption
+
+AirQualityTrends:
+    label is Air Quality Trends
+    type is timeseries
+    source is gardenSensors
+    traces -> dateObserved, co2, nox, o3, pm25, id
+
+
+PlantHealth:
+    label is Plant Health
+    type is timeseries
+    source is gardenSensors
+    traces -> dateObserved, temperature, relativeHumidity, soilMoisture, id
+
+EnergyAndLightAnalysis:
+    label is Energy vs. Light Intensity
+    type is timeseries
+    source is gardenSensors
+    traces -> dateObserved, electricityConsumption, lightIntensity, id
+
+TemperatureCOXCorrelation:
+    label is Temperature vs. CO2
+    type is xy_chart
+    source is gardenSensors
+    traces -> temperature, co2, id, dateObserved
+
+DailyPowerConsumption:
+    label is Daily Electricity Consumption
+    type is bar_chart
+    source is gardenSensors
+    traces -> dateObserved, electricityConsumption, id
+
+
+deployment:
+    environments -> local
+
+local:
+    uri is https://localhost.org:3000/test
+    port is 50055
+    type is Docker

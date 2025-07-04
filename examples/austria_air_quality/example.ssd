@@ -1,0 +1,63 @@
+service:
+    title is Austrian Air Quality Dashboard
+    version is 1.0.0
+    scope is Environment
+
+data:
+    sources -> airquality
+
+airquality:
+    type is SmartMeter
+    provider is Fiware
+    uri is http://localhost:1026/v2/entities
+    query is AirQualityObserved
+
+application:
+    type is Web
+    dashboard is Dash
+    layout is SinglePage
+    roles -> User, SuperUser, Admin
+    panels -> Map, Pie, XY, TS, Bar
+
+Map:
+    label is Air Quality Map
+    type is geomap
+    source is airquality
+    data -> location, stationName, NO, NO2, O3, PM2.5, SO2, CO, address
+    area is Vienna
+
+Pie:
+    label is Pollutant Distribution
+    type is pie_chart
+    source is airquality
+    traces -> NO, NO2, O3, PM2.5, SO2, CO, id
+    pie_chart_type is pie
+
+XY:
+    label is Pollution Scatter Plot
+    type is xy_chart
+    source is airquality
+    traces -> dateObserved, NO, NO2, O3, PM2.5, SO2, CO, id
+    filter_by is stationName
+
+TS:
+    label is Time Series
+    type is timeseries
+    source is airquality
+    traces -> dateObserved, NO, NO2, O3, PM2.5, SO2, CO, id
+    filter_by is stationName
+
+Bar:
+    label is Pollutant Bar Chart
+    type is bar_chart
+    source is airquality
+    filter_by is stationName
+    traces -> dateObserved, NO, NO2, O3, PM2.5, SO2, CO, id
+
+deployment:
+    environments -> local
+
+local:
+    uri is https://localhost.org:3000/test
+    port is 50055
+    type is Docker
