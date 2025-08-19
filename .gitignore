@@ -164,3 +164,4 @@ config_fiware.json
 *.DS_Store
 examples/austria_air_quality/data/*
 examples/surface_water_level_vienna/data/*
+examples/kittenberger_garden/data/*

@@ -82,8 +82,16 @@ def transform_to_fiware(df):
 
 print("-> Transforming data to FIWARE format...")
 fiware_data = transform_to_fiware(df)
+total_rows = len(fiware_data)
 
+n_rows = int(total_rows /  4)
 print("-> Saving transformed data to JSON file...")
-with open(CURR_DIR + "/" + 'waste_collection_wien_fiware.json', 'w', encoding="utf-8") as f:
-    json.dump(fiware_data, f, indent=4, ensure_ascii=False)
+with open(CURR_DIR + "/" + 'waste_collection_wien_fiware_1.json', 'w', encoding="utf-8") as f:
+    json.dump(fiware_data[:n_rows], f, indent=4, ensure_ascii=False)
+with open(CURR_DIR + "/" + 'waste_collection_wien_fiware_2.json', 'w', encoding="utf-8") as f:
+    json.dump(fiware_data[n_rows+1:2*n_rows], f, indent=4, ensure_ascii=False)
+with open(CURR_DIR + "/" + 'waste_collection_wien_fiware_3.json', 'w', encoding="utf-8") as f:
+    json.dump(fiware_data[2*n_rows+1:3*n_rows], f, indent=4, ensure_ascii=False)
+with open(CURR_DIR + "/" + 'waste_collection_wien_fiware_4.json', 'w', encoding="utf-8") as f:
+    json.dump(fiware_data[3*n_rows+1:], f, indent=4, ensure_ascii=False)
 print("DONE.\n")
